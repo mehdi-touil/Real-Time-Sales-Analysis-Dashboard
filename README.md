@@ -57,5 +57,5 @@ The `PowerBI` Software retrieves the data realtime. PowerBI connects to MySQL da
 
 
 ## Dashboard
-![](images/dashboard.png)
+![](images/Dashboard.png)
 
