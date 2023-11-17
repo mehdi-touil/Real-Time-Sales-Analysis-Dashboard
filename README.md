@@ -14,7 +14,7 @@ This project is a real-time sales analysis dashboard implemented as a streaming 
 - **PowerBI :** Visualization tool for creating a real-time sales dashboard.
 
 ## Architecture
-![](images/sales-streaming-architecture.png)
+![](images/sales-streaming-architecture.jpg)
 
 All applications in this project are containerized into **Docker** containers to easily setup the environment for end to end streaming data pipeline.
 
