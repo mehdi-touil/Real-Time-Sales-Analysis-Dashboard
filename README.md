@@ -42,12 +42,14 @@ Following are the spark jars required for stream processing:
 - spark-sql-kafka-0-10_2.12:3.0.0
 - com.datastax.spark:spark-cassandra-connector_2.12:3.4.1 
 - kafka-clients-3.4.0.jar
-- spark-sql-kafka-0-10_2.12-3.3.0.jar
+- spark-sql-kafka-0-10_2.12:3.0.0.jar
 - spark-streaming-kafka-0-10-assembly_2.12-3.3.0.jar
 - jsr166e-1.1.0.jar
 - mysql-connector-java-8.0.28.jar
+- The .jar files can easily be downloaded from maven.
 
-The .jar files can easily be downloaded from maven.
+**Spark Submit**
+  - spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.0.0,com.datastax.spark:spark-cassandra-connector_2.12:3.4.1 streamingKafka2Cassandra.py
 
 ### Serving Database Layer
 A cassandra database stores and persists raw data and mysql database stores the aggregated data from Spark jobs. The fisrt `cassandra` service is responsible for launching the cassandra instance and `mysql` for MYSQL Database.
